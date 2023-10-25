@@ -1,0 +1,52 @@
+@media only screen and (max-width: 600px) {
+    .titulo{
+        font-size: small;
+    }
+    th, td{
+        font-size: small;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .titulo{
+        font-size: medium;
+    }
+    th, td{
+        font-size: medium;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .titulo{
+        font-size: large;
+    }
+    th, td{
+        font-size: large;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .titulo{
+        font-size: x-large;
+    }
+    th, td{
+        font-size: x-large;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+.titulo{
+    font-size: xx-large;
+}
+th, td{
+    font-size: xx-large;
+}
+}
+
+
+table, td, th{
+    border: 1px solid #fa8072;
+}
+
+
+
